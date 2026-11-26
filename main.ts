@@ -25,6 +25,9 @@ if (length < 1 || length > LIMIT) {
 if (line.includes("\n")) {
   throw new Error("patch note must be a single line");
 }
+if (!line.startsWith("Fixed:")) {
+  throw new Error("patch note must open with the fix, like a real changelog");
+}
 
 // Write the entry for the grader to read.
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
