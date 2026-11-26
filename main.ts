@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const line =
-  "Fixed: humans now fall asleep in under 8 minutes. Known issue: they still call it 'just one more episode.'";
+  "Fixed: sleep now installs in 8 minutes, no restart required. Known issue: users still click 'Remind me tomorrow' at 3 a.m.";
 
 const limit = 160;
 if ([...line].length > limit) {
