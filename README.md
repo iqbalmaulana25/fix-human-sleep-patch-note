@@ -15,4 +15,4 @@ cat /output/entry.txt
 
 ## Entry
 
-> Fixed: humans now fall asleep in under 8 minutes. Known issue: they still call it 'just one more episode.'
+> Fixed: sleep now installs in 8 minutes, no restart required. Known issue: users still call it 'just one more episode.'
